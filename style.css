@@ -1,0 +1,103 @@
+.pagrindas{
+background-color: rgb(88, 106, 187);
+max-width: 900px;
+min-height: 310px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+display: flex;
+flex-wrap: nowrap;
+gap: 5px;
+}
+.meniu{
+    position: sticky;
+    top:0px;
+    z-index: 999;
+background-color: rgb(196, 233, 255);
+padding:10px;
+text-align: center;
+}
+.poraste{
+    background-color: rgb(46, 77, 211);
+    text-align: center ;
+    height: 70px;
+}
+.straipsniai{
+    background-color: rgb(110, 149, 255);
+    width: 69%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.straipsnis{
+    background-color: rgb(197, 230, 252);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 30px;
+    gap: 5px;
+    width:40%;
+}
+
+.sonas{
+    width: 30%;
+    height: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    text-align: justify;
+    position: relative;
+}
+.skydelis{
+    background-color: rgb(197, 230, 252);
+    row-gap:80%;
+    padding:11px;
+    border-radius: 25px;
+    margin: 10px;
+    text-align: justify;
+    border:2px;
+    border-style: solid;
+}
+.autorius{
+    color: rgb(48, 60, 172);
+}
+
+.mygt{
+    border-style: solid;
+    padding: 5px 10px;
+    background-color: rgb(132, 169, 250);
+    border-radius: 9px;
+    display:inline-block;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 30px;
+    color:rgb(255, 255, 255);
+}
+
+.mygt:hover{
+    background-color: black;
+    transition:ease-in;
+    transition-duration: 0.35s;
+    transition-property: background-color, color;
+}
+
+
+
+.burb{
+    position: absolute;
+    right:0;
+    top:0px;
+    background-color: rgb(160, 166, 250);
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+.burb2{
+    position: sticky;
+    bottom: 5px;
+    background-color: rgb(160, 166, 250);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
